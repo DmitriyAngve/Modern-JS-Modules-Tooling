@@ -25,4 +25,3 @@ add('oil', 2); // 2 pizza added to cart
 add('apples', 2); // 2 pizza added to cart
 
 console.log(cart);
-1;
