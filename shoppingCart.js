@@ -1,6 +1,11 @@
 // Exporting module
 console.log('Exporting module');
 
+// Blocking code
+console.log('Start fetching users'); // Will returns first
+await fetch('https://jsonplaceholder.typicode.com/users'); // Will returns second
+console.log('Finish fetching'); // Will returns third
+
 const shippingCost = 10; // Can used only here
 export const cart = []; // all to-level variable is a private for this MODULE
 
