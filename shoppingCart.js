@@ -15,6 +15,7 @@ const totalQuantity = 23;
 export { totalPrice, totalQuantity as tq };
 
 // Default exports use for only want to export one thing per module
+
 export default function (product, quantity) {
   cart.push({ product, quantity });
   console.log(`${quantity} ${product} added to cart`);
